@@ -8,7 +8,7 @@ namespace tools
 std::string RomanNumeral::ConvertArabic(int number) const
 {
 	auto roman = std::string{};
-	if (number >= 10)
+	while (number >= 10)
 	{
 		number -= 10;
 		roman += "X";
