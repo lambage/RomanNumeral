@@ -13,8 +13,9 @@ std::string RomanNumeral::ConvertArabic(int number) const
 		number -= 10;
 		roman += "X";
 	}
-	while (number-- > 0)
+	while (number >= 1)
 	{
+		number -= 1;
 		roman += "I";
 	}
 	return roman;
