@@ -22,6 +22,5 @@ protected:
 
 TEST_F(RomanNumeralUnitTest, CanConvert)
 {
-	// EXPECT_THAT will continue running without returning, so we will use that since
-	// there aren't many differences in the tests
+	EXPECT_THAT(m_RomanNumeral->ConvertArabic(1), Eq("I"));
 }
