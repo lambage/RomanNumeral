@@ -7,7 +7,7 @@ namespace tools
 	
 std::string RomanNumeral::ConvertArabic(int number) const
 {
-	return "";
+	return "I";
 }
 
 } // namespace tools
