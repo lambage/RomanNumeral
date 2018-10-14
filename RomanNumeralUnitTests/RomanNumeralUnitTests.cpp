@@ -24,4 +24,5 @@ TEST_F(RomanNumeralUnitTest, CanConvert)
 {
 	EXPECT_THAT(m_RomanNumeral->ConvertArabic(1), Eq("I"));
 	EXPECT_THAT(m_RomanNumeral->ConvertArabic(2), Eq("II"));
+	EXPECT_THAT(m_RomanNumeral->ConvertArabic(3), Eq("III"));
 }
