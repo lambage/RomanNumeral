@@ -7,7 +7,14 @@ namespace tools
 	
 std::string RomanNumeral::ConvertArabic(int number) const
 {
-	return "I";
+	if (number == 1)
+	{
+		return "I";
+	}
+	else
+	{
+		return "II";
+	}
 }
 
 } // namespace tools
