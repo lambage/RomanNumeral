@@ -1,0 +1,9 @@
+An exercise in TDD.  This example was taken from
+"Modern C++ Programming with Test-Driven Development"
+
+The branch krisTest was my own walk through the problem, I tried to 
+capture a commit after every failed test, then making the test pass to
+help show the steps to getting the resulting answer.
+
+Master branch has the final answer we came up with as a group
+in the mob coding lunch and learn session.
