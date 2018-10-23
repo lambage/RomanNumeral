@@ -1,5 +1,6 @@
 #include "RomanNumeral/RomanNumeral.hpp"
 #include <vector>
+#include <stdexcept>
 
 namespace dejero
 {
